@@ -45,6 +45,11 @@
 #if USE_BASE_CONFIGS
   #include "BaseConfiguration.h"
 #else
+  // PRUSA_AIO files
+  #include "../../Prusa_AIO_Configuration.h"
+  #include "Prusa_AIO_Changes.h"
+  #include "Prusa_AIO_SanityCheck.h"
+  #include "Prusa_AIO_Conditionals.h"
   #include "../../Configuration.h"
 #endif
 
